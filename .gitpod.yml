@@ -1,0 +1,4 @@
+image: gitpod/workspece-mysql
+
+tasks:
+   - init : mysql -u root -e "CREATE DATABASE ads"
